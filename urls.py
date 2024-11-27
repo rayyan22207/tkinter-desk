@@ -24,3 +24,7 @@ def get_search_meeps_url():
 def get_meep_like_url(meep_id):
     """Returns the URL to like/unlike a meep."""
     return f"{BASE_URL}/meeps/{meep_id}/like/"
+
+def auth():
+    """Returns login url"""
+    return f'{BASE_URL}/api/token/'
